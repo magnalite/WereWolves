@@ -1,0 +1,6 @@
+name: werewolf
+main: Werewolf.main
+version: 1.0
+description: >
+    Become a Werewolf at night!!
+depend: [Spout]
