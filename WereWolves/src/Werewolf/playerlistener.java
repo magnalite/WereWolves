@@ -53,7 +53,9 @@ public class playerlistener extends PlayerListener {
 				firstchosen = false;
 				if (SpoutManager.getPlayer(event.getPlayer()).getSkin() == "http://dl.dropbox.com/u/46495247/werewolf.png") {
 					Player player = event.getPlayer();
-					SpoutManager.getPlayer(player).setSkin("http://s3.amazonaws.com/MinecraftSkins/"+ player.getName() + ".png");
+					SpoutManager.getPlayer(player).setSkin(
+							"http://s3.amazonaws.com/MinecraftSkins/"
+									+ player.getName() + ".png");
 					SpoutManager.getPlayer(player).setWalkingMultiplier(1);
 					SpoutManager.getPlayer(player).setJumpingMultiplier(1);
 					SpoutManager.getPlayer(player).setAirSpeedMultiplier(1);
